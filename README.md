@@ -1,7 +1,12 @@
-N8N_BASIC_AUTH_ACTIVE=true: ativa autenticação básica via navegador;
+🧩 Resumo:
+Este docker-compose.yml:
 
-N8N_BASIC_AUTH_USER e PASSWORD: definem login e senha (admin / admin123);
+Sobe o n8n em um ambiente pronto para uso;
 
-N8N_SECURE_COOKIE=false: desativa cookies seguros (útil em ambiente sem HTTPS);
+Permite acesso pela porta 5678;
 
-TZ=America/Sao_Paulo: define o fuso horário da aplicação.
+Garante persistência local dos dados;
+
+Configura autenticação simples;
+
+Define timezone e reinício automático.
